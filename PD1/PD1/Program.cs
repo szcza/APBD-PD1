@@ -7,5 +7,17 @@ public class Program
         Console.WriteLine("Hello, World!");
         
     }
+
+    public static int Average(int[] arr)
+    {
+        int sum = 0;
+        for (int i = 0; i < arr.Length; i++)
+        {
+            sum += arr[i];
+        }
+
+        return(sum / arr.Length);
+        
+    }
 }
 
