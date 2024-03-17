@@ -6,12 +6,12 @@ public class Program
     {
         Console.WriteLine("Hello, World!");
         int[] arr = { 1, 3, 6, 34, 2, 21, 12 };
-        Console.WriteLine(Average(arr));
+        Console.WriteLine(Avg1(arr));
         Console.WriteLine(Max(arr));
 
     }
 
-    public static int Average(int[] arr)
+    public static int Avg1(int[] arr)
     {
         int sum = 0;
         for (int i = 0; i < arr.Length; i++)
